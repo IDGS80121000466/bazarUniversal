@@ -14,7 +14,7 @@ const NavBar = () => {
   };
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light  bg-light w-100" style={{ backgroundColor: '#e3f2fd'}}>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top w-100" style={{ backgroundColor: '#e3f2fd' }}>
         <div className="container-fluid">
           <a className="navbar-brand" href="/home">Bazar Universal</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
